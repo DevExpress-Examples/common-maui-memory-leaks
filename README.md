@@ -22,7 +22,9 @@ The example includes the following usage scenarios that can cause an object to r
 3. A delegate function referenced by a long-lived object
 4. A control with an internal memory leak on a page
 5. A singleton view registered in the dependency injection container
-   
+
+## Find Memory Leaks
+
 You can use [.NET Meteor](https://marketplace.visualstudio.com/items?itemName=nromanov.dotnet-meteor) and [Heapview](https://github.com/1hub/dotnet-heapview) to profile your .NET MAUI application. For more details, see the following blog post: [.NET MAUI Memory Profiling - Identify and Fix Memory Leaks](https://community.devexpress.com/blogs/mobile/archive/2024/08/21/net-maui-memory-profiling-identify-and-fix-memory-leaks.aspx)
 
 If you'd prefer, you can also watch a step-by-step tutorial video on YouTube: [link](https://www.youtube.com/channel/UCtOjyugQSbxjQGuimGVsLVg)
