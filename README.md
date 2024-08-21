@@ -31,6 +31,7 @@ If you'd prefer, you can also watch a step-by-step tutorial video on YouTube: [l
 
 - [DirectReferenceLeakPage.cs](./CS/TypicalMemoryLeaks/Pages/DirectReferenceLeakPage.xaml.cs)
 - [EventLeakPage.cs](./CS/TypicalMemoryLeaks/Pages/EventLeakPage.xaml.cs)
+- [DelegateLeakPage.cs](./CS/TypicalMemoryLeaks/Pages/DelegateLeakPage.xaml.cs)
 - [ControlLeakPage.cs](./CS/TypicalMemoryLeaks/Pages/ControlLeakPage.xaml.cs)
 - [SinglegonPage.cs](./CS/TypicalMemoryLeaks/Pages/SinglegonPage.xaml.cs)
 
