@@ -10,7 +10,7 @@ This repository contains common patterns that cause memory leaks in .NET MAUI ap
 Pages in this project include code that resolves a memory leak. You can uncomment this code to compare the behavior of the application with and without memory leak.
 
 To check if a page persists in the memory, click the "sdfsdf" button that invokes the garbage collector and calculates the number alive pages.
-**gif**
+![Project Demonstration](./img/ProjectDemonstration.gif)
 You may need to click the "sdfsdf" button 2-3 times to force the garbage collector destroys unused objects in multiple cycles. 
 
 Below are the usage scenarios causing an object to stay in the memory:
