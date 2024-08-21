@@ -5,23 +5,27 @@
 <!-- default badges end -->
 # Common .NET MAUI Memory Leaks and Their Fixes
 
-This repository contains common patterns that cause memory leaks in .NET MAUI applications. Each problematic pattern is implemented in a separate page so that you can test it separatelly. 
+This repository showcases common patterns that can lead to memory leaks in .NET MAUI applications. Each pattern is demonstrated on its own page, allowing you to test them individually.
 
-Pages in this project include code that resolves a memory leak. You can uncomment this code to compare the behavior of the application with and without memory leak.
+For each page, we've included code that fixes the memory leak. You can uncomment this code to compare how the application behaves with and without the leak.
 
-To check if a page persists in the memory, click the "sdfsdf" button that invokes the garbage collector and calculates the number alive pages.
+To see if a page remains in memory, click the **Check Instances** button. This triggers garbage collection and shows the number of kept pages.
+
 ![Project Demonstration](./img/ProjectDemonstration.gif)
-You may need to click the "sdfsdf" button 2-3 times to force the garbage collector destroys unused objects in multiple cycles. 
 
-Below are the usage scenarios causing an object to stay in the memory:
+You might need to click the **Check Instances** button 2-3 times to ensure the garbage collector clears unused objects over multiple cycles.
 
-1. Reference from a long-living object or static property
-2. Event handler referenced by a long-living object
-3. Delegate funnction  referenced by a long-living object
-4. Control with an internal memory leak on a page
-5. Singleton view registered in a dependency injection container
+The example includes the following usage scenarios that can cause an object to remain in memory:
 
-You can use .NET Meteor and Heapview to profile your .NET MAUI application. Refer to the following blog post for additional information: [.NET MAUI Memory Profiling - Identify and Fix Memory Leaks](https://community.devexpress.com/blogs/mobile/archive/2024/08/21/net-maui-memory-profiling-identify-and-fix-memory-leaks.aspx)
+1. A reference from a long-lived object or static property
+2. An event handler held by a long-lived object
+3. A delegate function referenced by a long-lived object
+4. A control with an internal memory leak on a page
+5. A singleton view registered in the dependency injection container
+   
+You can use [.NET Meteor](https://marketplace.visualstudio.com/items?itemName=nromanov.dotnet-meteor) and [Heapview](https://github.com/1hub/dotnet-heapview) to profile your .NET MAUI application. For more details, see the following blog post: [.NET MAUI Memory Profiling - Identify and Fix Memory Leaks](https://community.devexpress.com/blogs/mobile/archive/2024/08/21/net-maui-memory-profiling-identify-and-fix-memory-leaks.aspx)
+
+If you'd prefer, you can also watch a step-by-step tutorial video on YouTube: [link](https://www.youtube.com/channel/UCtOjyugQSbxjQGuimGVsLVg)
 
 ## Files to Review
 
