@@ -3,7 +3,7 @@
 [![](https://img.shields.io/badge/📖_How_to_use_DevExpress_Examples-e9f6fc?style=flat-square)](https://docs.devexpress.com/GeneralInformation/403183)
 [![](https://img.shields.io/badge/💬_Leave_Feedback-feecdd?style=flat-square)](#does-this-example-address-your-development-requirementsobjectives)
 <!-- default badges end -->
-# Common .NET MAUI Memory Leaks and Their Fixes
+# Common .NET MAUI Memory Leaks
 
 This repository showcases common patterns that can lead to memory leaks in .NET MAUI applications. Each pattern is demonstrated on its own page, allowing you to test them individually.
 
