@@ -5,17 +5,17 @@
 <!-- default badges end -->
 # Common .NET MAUI Memory Leaks
 
-This repository showcases common patterns that can lead to memory leaks in .NET MAUI applications. Each pattern is demonstrated on its own page, allowing you to test them individually.
+This repository details common patterns that can lead to memory leaks in .NET MAUI-based applications. Each pattern is demonstrated on its own page, allowing you to test individually.
 
-For each page, we've included code that fixes the memory leak. You can uncomment this code to compare how the application behaves with and without the leak.
+For each page, we've included code to address the memory leak. You can uncomment this code to compare app behavior with and without the leak.
 
-To see if a page remains in memory, click the **Check Instances** button. This triggers garbage collection and shows the number of kept pages.
+To determine if a page remains in memory, click the **Check Instances** button. This triggers garbage collection and displays the number of retained pages.
 
 ![Project Demonstration](./img/ProjectDemonstration.gif)
 
 You might need to click the **Check Instances** button 2-3 times to ensure the garbage collector clears unused objects over multiple cycles.
 
-The example includes the following usage scenarios that can cause an object to remain in memory:
+This example considers the following usage scenarios (why objects remain in memory):
 
 1. A reference from a long-lived object or static property
 2. An event handler held by a long-lived object
@@ -25,9 +25,9 @@ The example includes the following usage scenarios that can cause an object to r
 
 ## Find Memory Leaks
 
-You can use [.NET Meteor](https://marketplace.visualstudio.com/items?itemName=nromanov.dotnet-meteor) and [Heapview](https://github.com/1hub/dotnet-heapview) to profile your .NET MAUI application. For more details, see the following blog post: [.NET MAUI Memory Profiling - Identify and Fix Memory Leaks](https://community.devexpress.com/blogs/mobile/archive/2024/08/21/net-maui-memory-profiling-identify-and-fix-memory-leaks.aspx)
+You can use [.NET Meteor](https://marketplace.visualstudio.com/items?itemName=nromanov.dotnet-meteor) and [Heapview](https://github.com/1hub/dotnet-heapview) to profile your .NET MAUI application. For more information, please review the following blog post: [.NET MAUI Memory Profiling - Identify and Fix Memory Leaks](https://community.devexpress.com/blogs/mobile/archive/2024/08/21/net-maui-memory-profiling-identify-and-fix-memory-leaks.aspx)
 
-If you'd prefer, you can also watch a step-by-step tutorial video on YouTube: [link](https://www.youtube.com/channel/UCtOjyugQSbxjQGuimGVsLVg)
+If you'd prefer, you can watch a step-by-step tutorial video on YouTube: [link](https://www.youtube.com/channel/UCtOjyugQSbxjQGuimGVsLVg)
 
 ## Files to Review
 
