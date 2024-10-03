@@ -23,14 +23,14 @@ namespace TypicalMemoryLeaks {
             await Shell.Current.GoToAsync(nameof(SinglegonPage));
         }
 
-        private async void GetSummaryClick(object sender, EventArgs e) {
-            await MemoryHelper.Clean();
+        private void GetSummaryClick(object sender, EventArgs e) {
+            MemoryHelper.Clean();
             outputLabel.Text = MemoryHelper.GetSummary();
         }
     }
     public static class MemoryHelper {
         public static List<WeakReference> Objects = new List<WeakReference>();
-        public static async Task Clean() {
+        public static void Clean() {
 			GC.Collect();
             GC.WaitForPendingFinalizers();
         }
