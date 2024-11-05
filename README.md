@@ -29,6 +29,8 @@ You can use [.NET Meteor](https://marketplace.visualstudio.com/items?itemName=nr
 
 If you'd prefer, you can watch a step-by-step tutorial video on YouTube: [link](https://www.youtube.com/channel/UCtOjyugQSbxjQGuimGVsLVg)
 
+For more information, review the following blog post: [.NET MAUI Memory Profiling — Identify and Fix Memory Leaks](https://community.devexpress.com/blogs/mobile/archive/2024/11/05/net-maui-memory-profiling-identify-and-fix-memory-leaks.aspx)
+
 ## Files to Review
 
 - [DirectReferenceLeakPage.cs](./CS/TypicalMemoryLeaks/Pages/DirectReferenceLeakPage.xaml.cs)
