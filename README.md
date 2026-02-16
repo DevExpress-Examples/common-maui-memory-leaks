@@ -45,7 +45,7 @@ For more information, review the following blog post: [.NET MAUI Memory Profilin
 - [Create Your First App with DevExpress Mobile UI for .NET MAUI (Visual Studio Code)](https://docs.devexpress.com/MAUI/404815/get-started/build-your-first-app-vscode)
 
 <!-- feedback -->
-## Does this example address your development requirements/objectives?
+## Does This Example Address Your Development Requirements/Objectives?
 
 [<img src="https://www.devexpress.com/support/examples/i/yes-button.svg"/>](https://www.devexpress.com/support/examples/survey.xml?utm_source=github&utm_campaign=common-maui-memory-leaks&~~~was_helpful=yes) [<img src="https://www.devexpress.com/support/examples/i/no-button.svg"/>](https://www.devexpress.com/support/examples/survey.xml?utm_source=github&utm_campaign=common-maui-memory-leaks&~~~was_helpful=no)
 
